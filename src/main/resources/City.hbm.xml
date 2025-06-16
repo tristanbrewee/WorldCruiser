@@ -4,7 +4,7 @@
         "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="City" table="CITY">
+    <class name="model.City" table="city">
 
         <meta attribute="class-description">
             This class contains city details.

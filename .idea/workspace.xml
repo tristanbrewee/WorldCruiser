@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc522911-a435-497e-ab11-d72ed5af1130" name="Changes" comment="- Added City.hbm.xml&#10;- Edited hibernate.cfg.xml&#10;- Relocated hibernate.cfg.xml to src/main/resources to fix bug&#10;- Edited code in Connection.initialize()&#10;- Generated constructors, getters, &amp; setters for City.java">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3572b338-4f38-4e99-b5c9-7e5b349a18cd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3572b338-4f38-4e99-b5c9-7e5b349a18cd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3572b338-4f38-4e99-b5c9-7e5b349a18cd/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3572b338-4f38-4e99-b5c9-7e5b349a18cd/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3572b338-4f38-4e99-b5c9-7e5b349a18cd/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tristanbrewee/hibernate/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tristanbrewee/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tristanbrewee/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/City.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/City.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/City.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/City.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-cruiser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/world-cruiser.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tristanbrewee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tristanbrewee/WorldCruiser&quot;,
+    &quot;accountId&quot;: &quot;8d8138e3-52af-4bdc-baa9-9a73a3cf26b8&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2yaTV4T9HEgFwIDPGCZt3UQUyZq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/trist/IdeaProjects/WorldCruiser/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "promo.database",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trist\IdeaProjects\WorldCruiser\src\main\java" />
+      <recent name="C:\Users\trist\IdeaProjects\WorldCruiser\src\com\tristanbrewee\model" />
+      <recent name="C:\Users\trist\IdeaProjects\WorldCruiser\src\com\tristanbrewee" />
+      <recent name="C:\Users\trist\IdeaProjects\WorldCruiser\src\com\java" />
+      <recent name="C:\Users\trist\IdeaProjects\WorldCruiser\src\com" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tristanbrewee.main.Main" />
+      <module name="world-cruiser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tristanbrewee.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc522911-a435-497e-ab11-d72ed5af1130" name="Changes" comment="" />
+      <created>1750071707585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750071707585</updated>
+      <workItem from="1750092259658" duration="7884000" />
+    </task>
+    <task id="LOCAL-00001" summary="- Set up the project&#10;- Added the fields for City.java">
+      <option name="closed" value="true" />
+      <created>1750072445700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750072445700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Converted to Maven project&#10;- Added pom.xml&#10;- Added dependencies for both Hibernate and MySql&#10;- Added hibernate.cfg.xml&#10;- Added properties for Hibernate configuration">
+      <option name="closed" value="true" />
+      <created>1750091772156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750091772156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Added City.hbm.xml&#10;- Edited hibernate.cfg.xml&#10;- Relocated hibernate.cfg.xml to src/main/resources to fix bug&#10;- Edited code in Connection.initialize()&#10;- Generated constructors, getters, &amp; setters for City.java">
+      <option name="closed" value="true" />
+      <created>1750098031429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750098031429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Set up the project&#10;- Added the fields for City.java" />
+    <MESSAGE value="- Converted to Maven project&#10;- Added pom.xml&#10;- Added dependencies for both Hibernate and MySql&#10;- Added hibernate.cfg.xml&#10;- Added properties for Hibernate configuration" />
+    <MESSAGE value="- Added City.hbm.xml&#10;- Edited hibernate.cfg.xml&#10;- Relocated hibernate.cfg.xml to src/main/resources to fix bug&#10;- Edited code in Connection.initialize()&#10;- Generated constructors, getters, &amp; setters for City.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added City.hbm.xml&#10;- Edited hibernate.cfg.xml&#10;- Relocated hibernate.cfg.xml to src/main/resources to fix bug&#10;- Edited code in Connection.initialize()&#10;- Generated constructors, getters, &amp; setters for City.java" />
+  </component>
+</project>

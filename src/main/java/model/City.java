@@ -1,20 +1,20 @@
-package com.tristanbrewee.model;
+package model;
 
 public class City {
 
     private int id;
     private String name;
-    private String countryId;
+    private String countryCode;
     private String district;
     private int population;
 
     public City() {
     }
 
-    public City(int id, String name, String countryId, String district, int population) {
+    public City(int id, String name, String countryCode, String district, int population) {
         this.id = id;
         this.name = name;
-        this.countryId = countryId;
+        this.countryCode = countryCode;
         this.district = district;
         this.population = population;
     }
@@ -35,12 +35,12 @@ public class City {
         this.name = name;
     }
 
-    public String getCountryId() {
-        return countryId;
+    public String getCountryCode() {
+        return countryCode;
     }
 
-    public void setCountryId(String countryId) {
-        this.countryId = countryId;
+    public void setCountryCode(String countryId) {
+        this.countryCode = countryId;
     }
 
     public String getDistrict() {

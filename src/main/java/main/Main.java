@@ -1,6 +1,6 @@
-package com.tristanbrewee.main;
+package main;
 
-import com.tristanbrewee.hibernate.Connection;
+import hibernate.Connection;
 
 public class Main {
 
