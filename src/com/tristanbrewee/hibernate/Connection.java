@@ -10,9 +10,13 @@ public class Connection {
     This method gets Hibernate started
      */
     public static void initialize(){
-        Configuration configuration = new Configuration();
-        configuration.configure("hibernate.cfg.xml");
-        SessionFactory factory = configuration.buildSessionFactory();
+        StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+        Metadata metadata = new MetadataSources( ssr ).getMetadataBuilder().build();
+
+        SessionFactory factory = metadata.getSessionFactoryBuilder().build();
+
         Session session = factory.openSession();
+
+        Transaction tx = session.beginTransaction();
     }
 }
