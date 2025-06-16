@@ -13,5 +13,6 @@
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <mapping resource="City.hbm.xml"/>
         <mapping class="model.City"/>
+        <mapping class="model.Country"/>
     </session-factory>
 </hibernate-configuration>
