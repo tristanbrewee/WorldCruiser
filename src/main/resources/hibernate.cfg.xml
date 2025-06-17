@@ -14,5 +14,6 @@
         <mapping resource="City.hbm.xml"/>
         <mapping class="model.City"/>
         <mapping class="model.Country"/>
+        <mapping class="model.CountryLanguage"/>
     </session-factory>
 </hibernate-configuration>

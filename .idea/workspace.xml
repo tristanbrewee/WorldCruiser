@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc522911-a435-497e-ab11-d72ed5af1130" name="Changes" comment="- Reorganized files and packages conform Maven&#10;- fixed imports in Connection.java&#10;- Changed countryId to countryCode in City.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Continent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Country.hbm.xml" afterDir="false" />
+    <list default="true" id="fc522911-a435-497e-ab11-d72ed5af1130" name="Changes" comment="- Added Country.java&#10;- Added Country.hbm.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750071707585</updated>
-      <workItem from="1750092259658" duration="11007000" />
+      <workItem from="1750092259658" duration="11164000" />
+      <workItem from="1750145570636" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="- Set up the project&#10;- Added the fields for City.java">
       <option name="closed" value="true" />
@@ -154,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750101093508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Added Country.java&#10;- Added Country.hbm.xml">
+      <option name="closed" value="true" />
+      <created>1750107028674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750107028674</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +181,7 @@
     <MESSAGE value="- Converted to Maven project&#10;- Added pom.xml&#10;- Added dependencies for both Hibernate and MySql&#10;- Added hibernate.cfg.xml&#10;- Added properties for Hibernate configuration" />
     <MESSAGE value="- Added City.hbm.xml&#10;- Edited hibernate.cfg.xml&#10;- Relocated hibernate.cfg.xml to src/main/resources to fix bug&#10;- Edited code in Connection.initialize()&#10;- Generated constructors, getters, &amp; setters for City.java" />
     <MESSAGE value="- Reorganized files and packages conform Maven&#10;- fixed imports in Connection.java&#10;- Changed countryId to countryCode in City.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Reorganized files and packages conform Maven&#10;- fixed imports in Connection.java&#10;- Changed countryId to countryCode in City.java" />
+    <MESSAGE value="- Added Country.java&#10;- Added Country.hbm.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added Country.java&#10;- Added Country.hbm.xml" />
   </component>
 </project>
