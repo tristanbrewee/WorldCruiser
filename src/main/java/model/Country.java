@@ -1,43 +1,68 @@
 package model;
 
+import jakarta.persistence.*;
+import org.hibernate.annotations.ColumnDefault;
+
+import java.math.BigDecimal;
+
+@Entity
+@Table(name = "country")
 public class Country {
-
+    @Id
+    @ColumnDefault("''")
+    @Column(name = "Code", nullable = false, length = 3)
     private String code;
+
+    @ColumnDefault("''")
+    @Column(name = "Name", nullable = false, length = 52)
     private String name;
+
+//    @ColumnDefault("'Asia'")
+    @Lob
+    @Column(name = "Continent", nullable = false)
     private String continent;
+
+    @ColumnDefault("''")
+    @Column(name = "Region", nullable = false, length = 26)
     private String region;
-    private double surfaceArea;
-    private int indepYear;
-    private int population;
-    private double lifeExpectancy;
-    private double gnp;
-    private double gnpOld;
+
+    @ColumnDefault("0.00")
+    @Column(name = "SurfaceArea", nullable = false, precision = 10, scale = 2)
+    private BigDecimal surfaceArea;
+
+    @Column(name = "IndepYear")
+    private Short indepYear;
+
+    @ColumnDefault("0")
+    @Column(name = "Population", nullable = false)
+    private Integer population;
+
+    @Column(name = "LifeExpectancy", precision = 3, scale = 1)
+    private BigDecimal lifeExpectancy;
+
+    @Column(name = "GNP", precision = 10, scale = 2)
+    private BigDecimal gnp;
+
+    @Column(name = "GNPOld", precision = 10, scale = 2)
+    private BigDecimal gNPOld;
+
+    @ColumnDefault("''")
+    @Column(name = "LocalName", nullable = false, length = 45)
     private String localName;
+
+    @ColumnDefault("''")
+    @Column(name = "GovernmentForm", nullable = false, length = 45)
     private String governmentForm;
+
+    @Column(name = "HeadOfState", length = 60)
     private String headOfState;
-    private int capital;
+
+    @Column(name = "Capital")
+    private Integer capital;
+
+    @ColumnDefault("''")
+    @Column(name = "Code2", nullable = false, length = 2)
     private String code2;
-
-    public Country() {
-    }
-
-    public Country(String code, String name, String continent, String region, double surfaceArea, int indepYear, int population, double lifeExpectancy, double gnp, double gnpOld, String localName, String governmentForm, String headOfState, int capital, String code2) {
-        this.code = code;
-        this.name = name;
-        this.continent = continent;
-        this.region = region;
-        this.surfaceArea = surfaceArea;
-        this.indepYear = indepYear;
-        this.population = population;
-        this.lifeExpectancy = lifeExpectancy;
-        this.gnp = gnp;
-        this.gnpOld = gnpOld;
-        this.localName = localName;
-        this.governmentForm = governmentForm;
-        this.headOfState = headOfState;
-        this.capital = capital;
-        this.code2 = code2;
-    }
 
     public String getCode() {
         return code;
@@ -71,52 +96,52 @@ public class Country {
         this.region = region;
     }
 
-    public double getSurfaceArea() {
+    public BigDecimal getSurfaceArea() {
         return surfaceArea;
     }
 
-    public void setSurfaceArea(double surfaceArea) {
+    public void setSurfaceArea(BigDecimal surfaceArea) {
         this.surfaceArea = surfaceArea;
     }
 
-    public int getIndepYear() {
+    public Short getIndepYear() {
         return indepYear;
     }
 
-    public void setIndepYear(int indepYear) {
+    public void setIndepYear(Short indepYear) {
         this.indepYear = indepYear;
     }
 
-    public int getPopulation() {
+    public Integer getPopulation() {
         return population;
     }
 
-    public void setPopulation(int population) {
+    public void setPopulation(Integer population) {
         this.population = population;
     }
 
-    public double getLifeExpectancy() {
+    public BigDecimal getLifeExpectancy() {
         return lifeExpectancy;
     }
 
-    public void setLifeExpectancy(double lifeExpectancy) {
+    public void setLifeExpectancy(BigDecimal lifeExpectancy) {
         this.lifeExpectancy = lifeExpectancy;
     }
 
-    public double getGnp() {
+    public BigDecimal getGnp() {
         return gnp;
     }
 
-    public void setGnp(double gnp) {
+    public void setGnp(BigDecimal gnp) {
         this.gnp = gnp;
     }
 
-    public double getGnpOld() {
-        return gnpOld;
+    public BigDecimal getGNPOld() {
+        return gNPOld;
     }
 
-    public void setGnpOld(double gnpOld) {
-        this.gnpOld = gnpOld;
+    public void setGNPOld(BigDecimal gNPOld) {
+        this.gNPOld = gNPOld;
     }
 
     public String getLocalName() {
@@ -143,11 +168,11 @@ public class Country {
         this.headOfState = headOfState;
     }
 
-    public int getCapital() {
+    public Integer getCapital() {
         return capital;
     }
 
-    public void setCapital(int capital) {
+    public void setCapital(Integer capital) {
         this.capital = capital;
     }
 
@@ -158,4 +183,5 @@ public class Country {
     public void setCode2(String code2) {
         this.code2 = code2;
     }
+
 }

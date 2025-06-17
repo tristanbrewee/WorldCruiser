@@ -1,16 +1,16 @@
-package model;
+package retired;
 
-public class CountryLanguage {
+public class CountryLanguageRetired {
 
     private String countryCode;
     private String language;
     private boolean boolOfficial;
     private double percentage;
 
-    public CountryLanguage() {
+    public CountryLanguageRetired() {
     }
 
-    public CountryLanguage(double percentage, boolean boolOfficial, String language, String countryCode) {
+    public CountryLanguageRetired(double percentage, boolean boolOfficial, String language, String countryCode) {
         this.percentage = percentage;
         this.boolOfficial = boolOfficial;
         this.language = language;

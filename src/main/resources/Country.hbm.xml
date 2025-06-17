@@ -4,28 +4,28 @@
         "http://hibernate.org.dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="model.Country" table="country">
+    <class name="retired.CountryRetired" table="country">
         <meta attribute="class-description">
             This class contains country details.
         </meta>
 
-        <id name="code" type="java.lang.String" column="Code">
+        <id name="code" type="string" column="Code">
 
         </id>
 
-        <property name="name" column="Name" type="java.lang.String"/>
+        <property name="name" column="Name" type="string"/>
         <property name="continent"  column="Continent" type="org.hibernate.type.EnumType"/>
-        <property name="region" column="Region" type="java.lang.String"/>
+        <property name="region" column="Region" type="string"/>
         <property name="surfaceArea" column="SurfaceArea" type="double"/>
         <property name="indepYear" column="IndepYear" type="int"/>
         <property name="population" column="Population" type="int"/>
         <property name="lifeExpectancy" column="LifeExpectancy" type="double"/>
         <property name="gnp" column="GNP" type="double"/>
         <property name="gnpOld" column="GNPOld" type="double"/>
-        <property name="localName" column="LocalName" type="java.lang.String"/>
-        <property name="governmentForm" column="GovernmentForm" type="java.lang.String"/>
-        <property name="headOfState" column="HeadOfState" type="java.lang.String"/>
+        <property name="localName" column="LocalName" type="string"/>
+        <property name="governmentForm" column="GovernmentForm" type="string"/>
+        <property name="headOfState" column="HeadOfState" type="string"/>
         <property name="capital" column="Capital" type="int"/>
-        <property name="code2" column="Code2" type="java.lang.String"/>
+        <property name="code2" column="Code2" type="string"/>
     </class>
 </hibernate-mapping>

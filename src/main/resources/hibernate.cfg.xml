@@ -13,7 +13,9 @@
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <mapping resource="City.hbm.xml"/>
         <mapping class="model.City"/>
+        <mapping class="retired.CountryRetired"/>
+        <mapping class="retired.CountryLanguageRetired"/>
         <mapping class="model.Country"/>
-        <mapping class="model.CountryLanguage"/>
+        <mapping class="model.Countrylanguage"/>
     </session-factory>
 </hibernate-configuration>
