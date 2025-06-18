@@ -1,6 +1,7 @@
 package model;
 
 import jakarta.persistence.*;
+import javax.persistence.ForeignKey;
 import org.hibernate.annotations.ColumnDefault;
 
 import java.math.BigDecimal;
@@ -9,7 +10,6 @@ import java.math.BigDecimal;
 @Table(name = "country")
 public class Country {
     @Id
-    @ColumnDefault("''")
     @Column(name = "Code", nullable = false, length = 3)
     private String code;
 
